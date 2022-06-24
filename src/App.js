@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Card from "./components/Card";
 import About from "./components/About";
 import Footer from "./components/Footer";
