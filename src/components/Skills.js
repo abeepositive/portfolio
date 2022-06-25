@@ -10,23 +10,23 @@ function Skills() {
       </p>
 
       <div className="flex flex-wrap justify-center pt-2">
-        <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
+        <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52 text-center">
           <FaReact color="#2196f3" className="mx-auto text-8xl" />
           <p className="mt-6 text-xl sm:text-2xl font-semibold text-center">
             React
           </p>
         </div>
 
-        <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
+        <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52 justify-center">
           <SiTailwindcss color="#2196f3" className="mx-auto text-8xl" />
-          <p className="mt-6 text-xl sm:text-2xl font-semibold text-center">
+          <p className="mt-6 text-xl text-center sm:text-2xl mx-auto font-semibold">
             TailwindCSS
           </p>
         </div>
 
         <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
           <SiJavascript color="#f7df1e" className="mx-auto text-8xl" />
-          <p className="mt-6 text-xl sm:text-2xl font-semibold text-center">
+          <p className="mt-6 text-xl sm:text-2xl font-semibold sm:text-center">
             Javascript
           </p>
         </div>
